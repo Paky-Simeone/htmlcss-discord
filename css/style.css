@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --space: 15px;
+}
+
+/*Nav, inizio pagina*/
+
+.wrapper {
+  display: flex;
+  background-color: rgb(0, 179, 244);
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  padding: 20px 0;
+}
+
+.logo {
+  min-height: 10px;
+  min-width: 200px;
+  background-color: chocolate;
+  border: 1px dashed;
+  text-align: start;
+}
+
+.link {
+  min-height: 10px;
+  min-width: 300px;
+  background-color: chocolate;
+  border: 1px dashed black;
+  text-align: center;
+}
+
+.login {
+  min-height: 10px;
+  min-width: 200px;
+  background-color: chocolate;
+  border: 1px dashed black;
+  text-align: end;
+}
+
+/*Primo Layout main*/
+
+.wrapper2 {
+  display: flex;
+  background-color: rgb(61, 244, 0);
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  padding: 40px 0;
+}
+
+.primo-contenitore {
+  min-height: 200px;
+  min-width: 500px;
+  background-color: blueviolet;
+  border: 1px dashed black;
+}
+
+/*Secondo e Quarto Layout main*/
+
+.wrapper3 {
+  display: flex;
+  background-color: white;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  padding: 40px 0;
+}
+
+/*Secondo e terzo contenitore vanno bene per i prossimi 2 layout main*/
+.secondo-contenitore {
+  min-height: 200px;
+  min-width: 400px;
+  background-color: cornflowerblue;
+  border: 1px dashed black;
+}
+
+.terzo-contenitore {
+  min-height: 200px;
+  min-width: 300px;
+  background-color: rosybrown;
+  border: 1px dashed black;
+}
+
+/*Terzo Layout main*/
+
+.wrapper4 {
+  display: flex;
+  background-color: rgb(190, 190, 190);
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  padding: 40px 0;
+}
+
+/*Quinto Layout main*/
+
+.quinto-contenitore {
+  min-height: 400px;
+  min-width: 700px;
+  background-color: brown;
+  border: 1px dashed black;
+}
+
+/*Primo Layout footer*/
+
+.wrapper5 {
+  display: flex;
+  background-color: darkslategray;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  padding: 40px 0;
+}
+
+.sesto-contenitore {
+  min-height: 300px;
+  min-width: 200px;
+  background-color: darkgreen;
+  border: 1px dashed black;
+}
+
+.settimo-contenitore {
+  min-height: 300px;
+  min-width: 125px;
+  background-color: darkcyan;
+  border: 1px dashed black;
+}
+
+/*Secondo Layout Footer*/
+
+.wrapper6 {
+  display: flex;
+  height: 100px;
+  background-color: darkslategray;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.contenitore-footer {
+  height: 70px;
+  width: 700px;
+  background-color: cyan;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.logo2 {
+  min-height: 30px;
+  min-width: 100px;
+  background-color: deeppink;
+  border: 1px dashed;
+  text-align: center;
+  vertical-align: middle;
+}
