@@ -36,12 +36,22 @@
   text-align: center;
 }
 
+.link > .white {
+  color: white;
+}
+
 .login {
   min-height: 10px;
   min-width: 200px;
   background-color: chocolate;
   border: 1px dashed black;
   text-align: end;
+}
+
+.login > button {
+  border-radius: 20px 20px;
+  width: 4rem;
+  height: 2rem;
 }
 
 /*Primo Layout main*/
