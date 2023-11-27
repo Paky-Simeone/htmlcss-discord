@@ -186,9 +186,16 @@
 
 .quinto-contenitore {
   min-height: 400px;
-  min-width: 700px;
-  background-color: brown;
-  border: 1px dashed black;
+  width: 50%;
+  text-align: center;
+}
+
+.quinto-contenitore > h1 {
+  font-size: xxx-large;
+}
+
+.quinto-contenitore > p {
+  margin-top: 3rem;
 }
 
 /*Primo Layout footer*/
